@@ -1,0 +1,173 @@
+header{
+background-color: #3B5998;
+flex-wrap: wrap;
+border: 1px solid #3B5998;
+max-width: auto;
+min-width: auto;
+}
+
+
+ul{
+display: flex;
+list-style: none;
+justify-content: space-between;
+
+
+
+}
+li{
+font-size: 20px;
+margin-bottom: 10px;
+
+
+}
+
+
+ul li .fa{
+color: white;
+font-weight: bold;
+
+}
+.boxes{
+background-color: #3B5998;
+display: flex;
+justify-content: space-around;
+
+
+}
+.box1,.box2,.box3{
+    background-color: white;
+    border: 1px solid #3B5998;
+    color: green;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.line{
+text-align: center;
+background-color: #3B5998;
+color: white;
+margin-top: 20px;
+}
+.heading{
+display: flex;
+justify-content: space-around;
+font-size: 25px;
+font-weight: bold;
+color: green;
+margin-top: 20px;
+margin-left: 10%;
+text-shadow: 2px 3px 4px black;
+
+}
+
+.icon{
+margin-left: 48%;
+margin-top: 20px;
+
+}
+.para p{
+text-indent: 10px;
+margin-left: 60px;
+font-size: 16px;
+font-weight: bold;
+margin-top: 25px;
+}
+.table{
+background-color: #3B5998;
+
+}
+.main{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+.main1,.main2,.main4,.main5,.main6,.main7{
+border: 1px solid white;
+box-shadow: 2px 2px 5px black;
+padding: 35px;
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+color: #3B5998;
+background-color: white;
+margin-top: 40px;
+margin-left: 70px;
+}
+footer{
+color: white;
+background-color: #3B5998;
+border: 1px solid #3B5998;
+margin-top: 30px;
+text-align: center;
+padding: 10px;
+}
+.line{
+margin-top: 20px
+
+
+}
+.daily{
+font-weight: 40px;
+
+
+}
+.paint{
+display: flex;
+margin-left: 35%;
+color: green;
+font-size: 25px;
+font-weight: bold;
+margin-top: 20px;
+text-align: center;
+margin-left: 40%;
+text-shadow: 2px 3px 4px black;
+
+}
+.fa{
+justify-content: center;
+margin-left: 50px;
+font-size: 30px;
+}
+.sticky{
+position: sticky;
+top: -5px;
+
+
+}
+.mission,.gallry{
+color: green;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+margin-top: 100px;
+text-shadow: 2px 3px 4px black;
+}
+.house1,.house2,.house3{
+color: #3B5998;
+font-size: 25px;
+border: 1px solid white;
+box-shadow: 2px 2px 5px black;
+padding: 20px;
+margin-left: 30px;
+margin-top: 30px;
+}
+.house{
+display: flex;
+justify-content: space-around;
+margin-top: 70px;
+flex-wrap: wrap;
+
+
+
+}
+img{
+ margin-left: 30px;
+ margin-top: 50px;
+}
+.fix{
+    position: fixed;
+    left: 800px;
+}
